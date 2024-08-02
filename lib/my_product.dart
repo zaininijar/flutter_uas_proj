@@ -351,6 +351,7 @@ class MyProduct extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: Navbar(
+        pageName: "My Product",
         appBar: AppBar(),
       ),
       drawer: const Sidebar(),

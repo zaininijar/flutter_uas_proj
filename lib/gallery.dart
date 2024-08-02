@@ -217,6 +217,7 @@ class Gallery extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: Navbar(
+        pageName: "Gallery",
         appBar: AppBar(),
       ),
       drawer: const Sidebar(),

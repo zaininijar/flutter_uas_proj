@@ -3,6 +3,7 @@ import 'package:flutter_uas_proj/about.dart';
 import 'package:flutter_uas_proj/gallery.dart';
 import 'package:flutter_uas_proj/home.dart';
 import 'package:flutter_uas_proj/my_product.dart';
+import 'package:flutter_uas_proj/profile.dart';
 import 'package:flutter_uas_proj/subhome/cart.dart';
 import 'package:flutter_uas_proj/subhome/electronic.dart';
 import 'package:flutter_uas_proj/subhome/food.dart';
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
         '/my_product': (context) => const MyProduct(),
         '/gallery': (context) => const Gallery(),
         '/about': (context) => const About(),
+        '/profile': (context) => const Profile(),
         '/home/carts': (context) => const Cart(),
         '/home/transactions': (context) => const Transaction(),
         '/home/shipped': (context) => const Shipped(),

@@ -34,6 +34,7 @@ class _About extends State<About> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: Navbar(
+        pageName: "About",
         appBar: AppBar(),
       ),
       drawer: const Sidebar(),
